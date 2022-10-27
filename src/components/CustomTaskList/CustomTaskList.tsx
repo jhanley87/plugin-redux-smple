@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import { useSelector, useDispatch } from 'react-redux';
 
-import { allActions, ReduxSampleStore } from '../../store/Store';
+import { allActions, ReduxSampleStore } from '../../store';
 
 import { Alert } from '@twilio-paste/core/alert';
 import { Theme } from '@twilio-paste/core/theme';
