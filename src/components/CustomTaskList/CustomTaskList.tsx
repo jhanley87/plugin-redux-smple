@@ -9,9 +9,7 @@ import { Theme } from '@twilio-paste/core/theme';
 import { Text } from '@twilio-paste/core/text';
 
 const CustomTaskList = (): JSX.Element | null => {
-  const isOpen = useSelector<ReduxSampleStore>((state) => {
-    console.log(state);
-    return state.customTaskList.isOpen});
+  const isOpen = useSelector<ReduxSampleStore>((state) => state.customTaskList.isOpen);
   const dispatch = useDispatch()
   
   const dismiss = () => {
