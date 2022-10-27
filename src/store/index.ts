@@ -1,5 +1,5 @@
-import { CustomTaskListState, setIsOpen, dismiss } from "./CustomTaskListState";
-import customTaskLestReducer from "./CustomTaskListState";
+import { CustomTaskListState, setIsOpen, dismiss } from "./slices/CustomTaskListState";
+import customTaskLestReducer from "./slices/CustomTaskListState";
 
 export type ReduxSampleStore = {
   customTaskList: CustomTaskListState;

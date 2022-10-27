@@ -2,7 +2,7 @@ import React from 'react';
 import * as Flex from '@twilio/flex-ui';
 import { VERSION } from '@twilio/flex-ui';
 import { FlexPlugin } from '@twilio/flex-plugin';
-import { allReducers } from './store/Store';
+import { allReducers } from './store';
 
 import CustomTaskList from './components/CustomTaskList/CustomTaskList';
 
