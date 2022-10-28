@@ -11,8 +11,8 @@ const initialState: CustomTaskListState = {
     isOpen: true,
 };
 
-export const counterSlice = createSlice({
-  name: "counter",
+export const customTaskListSlice = createSlice({
+  name: "customTaskList",
   // `createSlice` will infer the state type from the `initialState` argument
   initialState,
   reducers: {
@@ -26,7 +26,7 @@ export const counterSlice = createSlice({
   },
 });
 
-export const { setIsOpen, dismiss } = counterSlice.actions;
+export const { setIsOpen, dismiss } = customTaskListSlice.actions;
 
 
-export default counterSlice.reducer;
+export default customTaskListSlice.reducer;
